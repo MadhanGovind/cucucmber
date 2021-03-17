@@ -1,0 +1,192 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9551749900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User in Adactin Hotel login page",
+            "match": {
+              "location": "StepDefinition.user_in_Adactin_Hotel_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 61177005200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScen()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To validate login using valid credentials",
+        "description": "",
+        "id": "to-validate-the-adactin-ticket-booking-functionality;to-validate-login-using-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1293485700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScen(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 872592900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid \"MadhanGovind\" and \"Madhan@21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MadhanGovind\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Madhan@21\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3122080800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click login button",
+            "match": {
+              "location": "StepDefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4704354600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select location,Hotel,roomtype,No of Rooms and \"09/03/2021\" and \"11/03/2021\" and adult",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09/03/2021\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"11/03/2021\"",
+                  "offset": 69
+                }
+              ],
+              "location": "StepDefinition.user_select_location_Hotel_roomtype_No_of_Rooms_and_and_and_adult(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1663219500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click search button",
+            "match": {
+              "location": "StepDefinition.user_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1929850000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select RadioButton and click Continue",
+            "match": {
+              "location": "StepDefinition.user_select_RadioButton_and_click_Continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9590698400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter \"Madhan\" and \"Govind\" and \"Hosur\"and \"1234567891234567\" and credittype and expmonth and expyear \"123\" and click booknow",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Madhan\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Govind\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Hosur\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 107
+                }
+              ],
+              "location": "StepDefinition.user_enter_and_and_and_and_credittype_and_expmonth_and_expyear_and_click_booknow(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1332372500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user check orderno lungthb is ten",
+            "match": {
+              "location": "StepDefinition.user_check_orderno_lungthb_is_ten()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Adactin ticket booking functionality",
+    "description": "",
+    "id": "to-validate-the-adactin-ticket-booking-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Adactin.feature",
+    "tags": []
+  }
+]
